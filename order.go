@@ -17,7 +17,7 @@ type OrderStatusEnum int
 
 // 订单状态
 const (
-	Unknown = iota // value --> 0
+	Unknown OrderStatusEnum = iota // value --> 0
 	// 1: 下单成功；
 	Init
 	// 2: 已经支付；

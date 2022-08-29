@@ -40,4 +40,7 @@ const (
 	Refund
 	// 11: 进入退款流程
 	DoneRefund
+
+	// 12: 超时未支付
+	OutOfPayTime
 )

@@ -14,7 +14,7 @@ const (
 	// CommodityStocks 商品库存 例如: commodity_stocks_<store_id>_<product_id>
 	CommodityStocks = "commodity_stocks"
 
-	// 订单下单计时器 (商品下单后需要在指定时间内完成支付，这里会倒计时，用于展示在待支付订单中，为时间戳)
+	// OrderPlaceTimeTTL 订单下单计时器 (商品下单后需要在指定时间内完成支付，这里会倒计时，用于展示在待支付订单中，为时间戳)
 	// 例如: order_place_time_ttl_<order_id>
 	OrderPlaceTimeTTL = "order_place_time_ttl"
 )

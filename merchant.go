@@ -21,7 +21,7 @@ const (
 // 商户类型
 const (
 	// MerchantTypeUnknown 0: 商户未知类型；
-	MerchantTypeUnknown MerchantStatusEnum = iota
+	MerchantTypeUnknown MerchantTypeEnum = iota
 	// MerchantOrdinary 1: 普通类型；
 	MerchantOrdinary
 
